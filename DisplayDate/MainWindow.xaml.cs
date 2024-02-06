@@ -23,6 +23,8 @@ namespace DisplayDate
         public MainWindow()
         {
             InitializeComponent();
+            DateTime currentDateTime = DateTime.Now;
+            DateLable.Content =currentDateTime;
         }
     }
 }

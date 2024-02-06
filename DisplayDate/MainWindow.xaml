@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:DisplayDate"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
         
-    </Grid>
+    <WrapPanel>
+        <Label Name="DateLable" AutomationProperties.Name="DateLable" RenderTransformOrigin="17.434,7.687"></Label>
+    </WrapPanel>
 </Window>
