@@ -25,8 +25,8 @@ namespace DisplayDate
             InitializeComponent();
             DateTime currentDateTime = DateTime.Now;
             DateLable.Content =currentDateTime;
-            int y = 6;
-            int x = 5;
+            int yael = 6;
+           
         }
     }
 }
