@@ -26,6 +26,7 @@ namespace DisplayDate
             DateTime currentDateTime = DateTime.Now;
             DateLable.Content =currentDateTime;
             int y = 6;
+            int x = 5;
         }
     }
 }
